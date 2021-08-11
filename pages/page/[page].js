@@ -31,7 +31,7 @@ export async function getStaticProps (context) {
     },
     revalidate: 1
   }
-} 
+}
 
 export async function getStaticPaths () {
   const posts = await getAllPosts({ includePages: false })
